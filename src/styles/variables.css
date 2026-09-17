@@ -1,0 +1,34 @@
+:root{
+
+    /* Primary */
+
+    --primary:#ff4d6d;
+    --primary-light:#ff758f;
+
+    /* Secondary */
+
+    --secondary:#ffd6e0;
+
+    /* Background */
+
+    --bg:#050816;
+    --bg-secondary:#0f172a;
+
+    /* Glass */
+
+    --glass:rgba(255,255,255,.08);
+
+    /* Text */
+
+    --text:#ffffff;
+    --text-light:#d1d5db;
+
+    /* Border */
+
+    --border:rgba(255,255,255,.15);
+
+    /* Shadows */
+
+    --shadow:0 10px 40px rgba(0,0,0,.4);
+
+}

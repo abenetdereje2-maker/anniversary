@@ -1,0 +1,37 @@
+.petal{
+
+    position:fixed;
+
+    top:-50px;
+
+    font-size:24px;
+
+    opacity:.8;
+
+    animation:fall linear infinite;
+
+    pointer-events:none;
+
+    z-index:5;
+
+}
+
+@keyframes fall{
+
+0%{
+
+transform:
+translateY(-50px)
+rotate(0deg);
+
+}
+
+100%{
+
+transform:
+translateY(110vh)
+rotate(360deg);
+
+}
+
+}

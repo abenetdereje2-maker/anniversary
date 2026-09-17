@@ -1,0 +1,243 @@
+.background{
+    position:absolute;
+    inset:0;
+    overflow:hidden;
+    z-index:1;
+}
+/* Stars */
+
+.star{
+
+    position:absolute;
+
+    width:3px;
+    height:3px;
+
+    border-radius:50%;
+
+    background:white;
+
+    animation:twinkle infinite ease-in-out;
+
+}
+
+@keyframes twinkle{
+
+    0%{
+        opacity:.2;
+        transform:scale(.5);
+    }
+
+    50%{
+        opacity:1;
+        transform:scale(1.5);
+    }
+
+    100%{
+        opacity:.2;
+        transform:scale(.5);
+    }
+
+}
+.moon{
+
+    position:absolute;
+
+    top:70px;
+
+    right:120px;
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    background:#fff7d6;
+
+    box-shadow:
+        0 0 30px #fff7d6,
+        0 0 80px #fff7d6;
+
+}
+.shooting-star{
+
+    position:absolute;
+
+    width:180px;
+
+    height:2px;
+
+    background:linear-gradient(
+        90deg,
+        white,
+        transparent
+    );
+
+    transform:rotate(-35deg);
+
+    opacity:0;
+
+}
+
+.star1{
+
+    top:10%;
+    left:-20%;
+
+    animation:shoot 7s linear infinite;
+
+}
+
+.star2{
+
+    top:25%;
+    left:-30%;
+
+    animation:shoot 10s linear infinite;
+    animation-delay:3s;
+
+}
+
+.star3{
+
+    top:40%;
+    left:-20%;
+
+    animation:shoot 12s linear infinite;
+    animation-delay:6s;
+
+}
+
+@keyframes shoot{
+
+    0%{
+
+        transform:
+            translateX(0)
+            translateY(0)
+            rotate(-35deg);
+
+        opacity:0;
+
+    }
+
+    10%{
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        transform:
+            translateX(1700px)
+            translateY(800px)
+            rotate(-35deg);
+
+        opacity:0;
+
+    }
+
+}
+.floating-heart{
+
+    position:absolute;
+
+    bottom:-50px;
+
+    color:#ff4d6d;
+
+    font-size:20px;
+
+    opacity:.5;
+
+    animation:floatHeart linear infinite;
+
+}
+
+@keyframes floatHeart{
+
+    from{
+
+        transform:
+        translateY(0);
+
+        opacity:0;
+
+    }
+
+    20%{
+
+        opacity:1;
+
+    }
+
+    to{
+
+        transform:
+        translateY(-120vh);
+
+        opacity:0;
+
+    }
+
+}
+.cloud{
+
+    position:absolute;
+
+    bottom:0;
+
+    width:450px;
+
+    height:140px;
+
+    background:
+    rgba(255,255,255,.08);
+
+    filter:blur(40px);
+
+    border-radius:50%;
+
+}
+
+.cloud1{
+
+    animation:cloudMove 35s linear infinite;
+
+}
+
+.cloud2{
+
+    bottom:60px;
+
+    animation:cloudMove 50s linear infinite reverse;
+
+}
+
+.cloud3{
+
+    bottom:120px;
+
+    animation:cloudMove 45s linear infinite;
+
+}
+
+@keyframes cloudMove{
+
+    from{
+
+        transform:
+        translateX(-500px);
+
+    }
+
+    to{
+
+        transform:
+        translateX(1800px);
+
+    }
+
+}

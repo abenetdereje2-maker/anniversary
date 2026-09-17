@@ -1,0 +1,99 @@
+.love-counter{
+
+    padding:120px 8%;
+
+    text-align:center;
+
+    color:white;
+
+}
+
+.love-counter h2{
+
+    font-size:3rem;
+
+    color:#ff4d6d;
+
+    margin-bottom:70px;
+
+    text-shadow:0 0 20px rgba(255,77,109,.4);
+
+}
+
+.counter-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+}
+
+.counter-card{
+
+    padding:40px;
+
+    border-radius:25px;
+
+    background:rgba(255,255,255,.06);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,.1);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+
+}
+
+.counter-card h1{
+
+    font-size:4rem;
+
+    color:#ff4d6d;
+
+    margin-bottom:10px;
+
+}
+
+.counter-card span{
+
+    color:#ffd6e0;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+@media(max-width:900px){
+
+.counter-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:600px){
+
+.counter-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.love-counter h2{
+
+    font-size:2.2rem;
+
+}
+
+.counter-card h1{
+
+    font-size:3rem;
+
+}
+
+}

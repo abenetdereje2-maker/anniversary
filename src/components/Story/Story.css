@@ -1,0 +1,78 @@
+.story-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  padding: 20px;
+}
+
+.story-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 40px 30px;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(186, 104, 200, 0.15);
+  max-width: 440px;
+  width: 100%;
+  text-align: center;
+}
+
+.heart-badge {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.story-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ad1457;
+  margin-bottom: 24px;
+  letter-spacing: -0.5px;
+}
+
+.story-text-group {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 32px;
+}
+
+.story-line {
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.story-line.highlight {
+  font-weight: 600;
+  color: #880e4f;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.continue-btn {
+  background: linear-gradient(135deg, #ec407a 0%, #d81b60 100%);
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 6px 20px rgba(236, 64, 122, 0.3);
+  transition: background 0.3s ease;
+}
+
+.btn-heart {
+  font-size: 14px;
+}
