@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import "./Timeline.css";
-import timelineData from "./timelineData";
+import timelineData from "./TimelineData";
 import LoveCounter from "../LoveCounter/LoveCounter";
 
 export default function Timeline({ onNext }) {
