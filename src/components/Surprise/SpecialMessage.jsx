@@ -239,7 +239,7 @@ export default function SpecialMessage() {
     preload="metadata"
   >
     <source
-      src="/videos/meses.mp4"
+      src="/videos/message.mp4"
       type="video/mp4"
     />
 
