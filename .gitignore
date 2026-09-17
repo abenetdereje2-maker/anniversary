@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 # Private anniversary video
 public/videos/meses.mp4
+
+.vercel
